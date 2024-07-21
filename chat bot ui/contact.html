@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <h1>Contact Us</h1>
+        <p>If you need any help, please contact us.</p>
+
+        <div class="column">
+            <label for="the-name">Your Name</label>
+            <input type="text" name="name" id="the-name">
+
+            <label for="the-email">Email Address</label>
+            <input type="email" name="email" id="the-email">
+
+            <label for="the-phone">Phone Number</label>
+            <input type="tel" name="phone" id="the-phone">
+
+            <label for="the-reason">How can we help you?</label>
+            <select name="reason" id="the-reason">
+                <option value="">Choose one</option>
+                <option value="web">I need help with a medical issue</option>
+                <option value="video">I need your help</option>
+                <option value="3d">I need medicine</option>
+            </select>
+        </div>
+        <div class="column">
+            <label for="the-message">Message</label>
+            <textarea name="message" id="the-message"></textarea>
+            <label>
+                <input type="checkbox" name="newsletter" value="yes"> Join our group
+            </label>
+            <input type="submit" value="Send Message">
+        </div>
+    </form>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>

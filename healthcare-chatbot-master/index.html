@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare ChatBot</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Healthcare ChatBot</h1>
+        <form action="/predict" method="POST">
+            <label for="symptom">Enter your symptom:</label><br>
+            <input type="text" id="symptom" name="symptom" required><br>
+            <label for="days">Days since symptom started:</label><br>
+            <input type="number" id="days" name="days" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
